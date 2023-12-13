@@ -40,46 +40,30 @@ html,body{
 #nav button:hover{
     background-color: white;
     color: black;
+    font-weight: 500;
     
 }
-
 
 #main{
     position: relative;
     overflow: hidden;
 }
-#page{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #f1f1f1;
-}
-#page1{
+
+
+#page , #page1, #page2, #page3, #page4{
     position: relative;
     height: 100vh;
     width: 100vw;
     background-color: #f1f1f1;
 
 }
-#page2{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #f1f1f1;
 
-}
-#page3{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #f1f1f1;
-
-}
 canvas{
     position: relative;
     z-index: 9;
     max-width: 100vw;
     max-height: 100vh;
+    
 }
 
 #first-text{
@@ -159,7 +143,7 @@ canvas{
 
 #page2-text1{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 10%;
 }
 
@@ -168,7 +152,7 @@ canvas{
     font-weight: 400;
 }
 
-#page2-text1 h1{
+#page2-text1 h1, #page2-text2 h1 , #page2-text3 h1{
     font-size:20px;
     line-height: 1.5;
     margin-top: 10px;
@@ -176,15 +160,26 @@ canvas{
 
 #page2-text2{
     position: absolute;
-    top: 55%;
-    right: 10%;
-    text-align: end;
+    top: 25%;
+    right: 5%;
+    /* text-align: end; */
 }
 
-#page2-text2>p{
+/* #page2-text2>p{
     color: #7c7c7c;
     font-weight: 400;
     font-size: 12px;
+} */
+
+#page2-text2 ul li, #page2-text3 ul li{
+    /* list-style: none; */
+}
+
+#page2-text3{
+    position: absolute;
+    top: 55%;
+    right: 7%;
+    /* text-align: end; */
 }
 
 #page3-text3{
